@@ -1,11 +1,11 @@
 #!/bin/bash
-echo "Bienvenido/a al planeta $planeta"
-if [ "$agente" = "true" ]
+echo "Welcome to planet $planet"
+if [ "$agent" = "true" ]
 then
-	echo "Prepárese para la misión agente X, que la fuerza te acompañe."
+  echo "Get ready for your mission agent X, may the force be with you."
 else
-	echo "Disfruta el planeta humano/a $nombre, trata de no morir."
+  echo "Enjoy the planet human $name, try not to get killed."
 fi
 echo "..."
-sleep 10
-echo "¡Suerte! La necesitarás."
+sleep 3
+echo "Good luck! You'll need it"
